@@ -8,7 +8,7 @@ import com.www.templateMethod.ConcreteClass2;
  * @ProjectName: DesignPattern
  * @Package: com.www
  * @ClassName: TemplateMethodTest
- * @Description: java类作用描述
+ * @Description: 模版方法模式
  * @Author: wensijia
  * @CreateDate: 2020/4/4 21:19
  * @UpdateUser: <Updateuser>
