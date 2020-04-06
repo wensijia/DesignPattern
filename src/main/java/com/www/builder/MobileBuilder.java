@@ -15,7 +15,8 @@ import java.util.ArrayList;
  * @Version: 1.0
  */
 public abstract class MobileBuilder {
+    //创建模型，给组装顺序
     public abstract void setSequence(ArrayList<String> sequence);
-
+    //设置完组装顺序后，直接可以拿到组装生产线
     public abstract MobilleModel getMobilleModel();
 }
