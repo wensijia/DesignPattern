@@ -1,0 +1,2 @@
+最直观的方式处理response
+将response的处理放在request的下面
