@@ -27,7 +27,7 @@ public class ExcelUtils {
 
     //demo
     public static void main(String[] args) throws Exception {
-        createTable("src/main/resources/demo.xlsx");
+        createTable("D:\\demo\\demo.xlsx");
     }
 
     /**
@@ -110,7 +110,7 @@ public class ExcelUtils {
             sb.append("PRIMARY KEY (").append(primaryKey).append(")").append(" USING BTREE ");
             sb.append("\n");
 
-            sb.append(") ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=COMPACT COMMENT='").append(sheet.getRow(0).getCell(1).toString()).append("';");
+            sb.append(") ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci ROW_FORMAT=COMPACT COMMENT='").append(sheet.getRow(0).getCell(1).toString()).append("';");
             sb.append("\n");
             System.out.println(sb);
         }
